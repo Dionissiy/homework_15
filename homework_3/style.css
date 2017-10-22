@@ -29,6 +29,7 @@ ol.content {
   background-color: #eee;
   border-radius: 3px;
   border: 1px solid #ddd;
+  display: inline-block;
 }
 img {
   width: 100% /* из хтмл файла не убрал ширину, так как, если подключать через цсс, картинки не соотвествуют размерам с вики.
@@ -55,7 +56,4 @@ q {
   quotes: '«' '»';
   font-style: italic;
   color: #888;
-}
-ol.content {
-  display: inline-block;
 }
