@@ -24,16 +24,15 @@ h4 {
 }
 figure,
 .content {
-  margin-top: 15px 40px 15px 40px;
+  display: inline-block;
+  margin: 15px 40px 15px 40px;
   padding: 15px;
   background-color: #eee;
   border-radius: 3px;
   border: 1px solid #ddd;
-  display: inline-block;
 }
 img {
-  width: 100% /* из хтмл файла не убрал ширину, так как, если подключать через цсс, картинки не соотвествуют размерам с вики.
-   Мб это все из-за того, что я использую ссылку на стр из википедии */
+  width: 100%;
   border-radius: 3px;
 }
 p {
@@ -56,4 +55,15 @@ q {
   quotes: '«' '»';
   font-style: italic;
   color: #888;
+}
+.img1 {
+  width: 430px;
+  float: right;
+}
+.img2 {
+  width: 330px;
+}
+.img3 {
+  width: 430px;
+  float: right;
 }
