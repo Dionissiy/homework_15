@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Formular";
+  src: url("fonts/Formular-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Formular";
+  src: url("fonts/Formular-Bold.otf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+   font-family: "Formular";
+   src: url("fonts/Formular-Medium.otf") format("truetype");
+   font-style: normal;
+   font-weight:  500;
+}
+.header{
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+.header-link {
+  display: block;
+  margin-top: 13px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color:#4b721d;
+  font-family: Formular, sans-serif;
+  text-transform: uppercase;
+}
+.header-link:hover {
+  color: #80bb3d;
+  text-decoration: none;
+}
+.title1 {
+  padding-top: 57px;
+  font-weight: 500;
+  text-align: left;
+  color: #4b721d;
+  font-size: 32px;
+  font-family: Formular, sans-serif;
+}
+.main-panel-image{
+  background-color: #fefefe;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2px;
+  margin-top: 21px;
+  margin-bottom: 55px;
+  padding-bottom: 24px;
+  height: 100%;
+  background-color: #fefefe;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.product-card-image {
+  height: 263px;
+  width: 263px;
+}
+.pc-name {
+  margin-left: 29px;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 21px;
+  color: #515151;
+  font-family: Formular, sans-serif;
+}
+.pc-name:hover {
+  text-decoration: none;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 29px;
+  padding-right: 29px;
+  font-family: Formular, sans-serif;
+}
+.old-price {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #9d9d9d;
+  text-decoration: line-through;
+  font-family: Formular, sans-serif;
+}
+.new-price {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #4b721d;
+  font-family: Formular, sans-serif;
+}
+.new-price b {
+  font-size: 21px;
+  font-weight: normal;
+  color: #4b721d;
+}
+.title2 {
+  font-weight: 500;
+  text-align: left;
+  color: #4b721d;
+  font-size: 32px;
+  font-family: Formular, sans-serif;
+}
+.category-panel-1 {
+  font-family: Formular, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 302px;
+  margin-top: 21px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  background: linear-gradient(
+      rgba(46, 46, 46, 0.21),
+      rgba(46, 46, 46, 0.21)
+    ),
+    url('img/cp-1.jpg');
+}
+.category-panel-2 {
+  font-family: Formular, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 302px;
+  margin-top: 21px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  background-image: url('img/cp-2.jpg');
+}
+.category-panel-3 {
+  font-family: Formular, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 364px;
+  margin-top: 30px;
+  margin-bottom: 85.6px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+  background: linear-gradient(
+      rgba(46, 46, 46, 0.21),
+      rgba(46, 46, 46, 0.21)
+    ),
+    url('img/cp-3.jpg');
+}
+.category-panel-3 p {
+  text-transform: uppercase;
+}
+.category-title {
+  font-family: Formular, sans-serif;
+  position: absolute;
+  display: block;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.footer {
+  padding-top: 36px;
+  padding-bottom: 13px;
+  background-color: #f4f4f4;
+  color: #666;
+}
+.footer-contact-text {
+  font-family: Formular, sans-serif;
+  font-weight: normal;
+  font-size: 21px;
+  margin-top: 0px;
+  margin-bottom: 23px;
+}
+.footer-contact-text li{
+  font-family: Formular, sans-serif;
+  list-style-type: none;
+}
+.copyright-text {
+  font-family: Formular, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 21px;
+  font-size: 16px;
+  text-align: center;
+  color: #c3c3c3;
+}
